@@ -148,4 +148,9 @@ for item in range(1,6): # 左闭右开 只打印1-5
     print(item) 
 # 4、break和continue
     # 只能放到循环内
-    # continur前一定要修改计时器，否则会死循环
+    # continur前一定要修改计时器，否则会死循环,如 i+=1
+for item in range(1,5):
+    if(item == 2):
+        i+=1
+        continue
+    print(item)
