@@ -1,5 +1,7 @@
-# 个人记录学习python的过程
+# 个人记录学习Python的过程
 
-# 2025年7月6日始
+# 目录（参考pythonNote）
+## 1、study_basic_01(pythonNote:一到十)
 
-# Always_zhou
+
+# 2025年7月6日始 Always_zhou
