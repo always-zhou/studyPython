@@ -80,10 +80,16 @@ print(math1 ** math2)  # 25
 # 3、赋值运算符（针对变量存在）
     # =
     # +=、-=  a+=1 等效于 a = a + 1
+# 4、比较运算符 == ; ！= ; > ; <
+# 5、逻辑运算符 and or not（非）
+# 6、三目运算（三元表达式）if else
+a = 2;b=1
+print('a大于b')if a >= b else print('a小于等于b')
 
 # 七、输入函数
 
 # 1、input输入函数 里面的参数是prompt 是提示，会在控制台显示
+    # 输入的默认为 字符串
 input("请输入你的梦想：")
 
 # 八、转义字符
@@ -96,3 +102,50 @@ print('abc\rzxw') # zxw
 # 5、r 原生字符串表示不转义
 print(r'abc///tzxw') # abc///tzxw
 
+# 九、if相关
+
+# 1、if判断
+score = input("请输入你的考试分数：")
+if score == '100':
+    print("你很棒棒哦！！！")
+if score == '60':
+    print("继续加油吧")
+# 2、if-esle 判断结构
+    # 1、if-else 二选一
+    # 2、if-elif 多选一 最后可以用else表示都不符合的条件
+# 3、if嵌套
+always = 27
+time = True
+if time == True:
+    print("begin study python->",end="")
+    if 18 <= always <= 30:
+        print("不小啦")
+    else:
+        print("那时年少")
+else:
+    print("who you are?")
+
+# 十、循环语句
+
+# 1、while循环(记得写改变变量，避免死循环)
+a = 0
+i = 1
+while i <= 100:
+    a+=i
+    i+=1
+print(a)
+# 2、while循环嵌套
+# 3、for循环 （字符串是可被迭代对象）
+# 基本格式
+# for 临时变量 in 可迭代对象：
+    # 循环满足条件时可执行的代码
+str = 'hello Python'
+for item in str:
+    print(item)
+# 4、range() 函数 用来记录循环的次数，相当于一个计数器 
+# 三个参数（start，stop，step）可以写任意参数 只写一个，代表循环的次数
+for item in range(1,6): # 左闭右开 只打印1-5
+    print(item) 
+# 4、break和continue
+    # 只能放到循环内
+    # continur前一定要修改计时器，否则会死循环
