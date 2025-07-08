@@ -1,6 +1,6 @@
 # 📚 Python 学习笔记 | Always_zhou
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13.3-blue?logo=python&logoColor=white)
 ![Last Updated](https://img.shields.io/github/last-commit/always-zhou/studyPython?label=最后更新)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -33,7 +33,7 @@ git clone https://github.com/always-zhou/studyPython.git
 
 # 运行特定脚本
 python basic/study_basic_01.py
-
+```
 ---
 🤝 参与贡献
 欢迎提出建议或提交 PR！
