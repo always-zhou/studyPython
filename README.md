@@ -18,6 +18,7 @@
 ### 🚀 语法进阶
 1. `advanced.study_advanced_01.py` - 进阶语法 (30-37)
 2. `advanced.study_advanced_02.py` - 进阶语法 (38-40)
+3. `advanced.study_advanced_03.py` - 进阶语法 (41-44)
 
 ---
 
