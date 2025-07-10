@@ -19,6 +19,8 @@
 1. `advanced.study_advanced_01.py` - 进阶语法 (30-37)
 2. `advanced.study_advanced_02.py` - 进阶语法 (38-40)
 3. `advanced.study_advanced_03.py` - 进阶语法 (41-44)
+4. `advanced.study_advanced_04.py` - 进阶语法 (45-46)
+5. `advanced.study_advanced_05.py` - 进阶语法 (47)
 
 ---
 
